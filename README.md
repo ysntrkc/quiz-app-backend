@@ -1,15 +1,19 @@
-# OrderAPI
+# Quiz APP Backend
 
 ## Description
 
 This is a Node.js-based RESTful API for Quiz APP. It uses the Express framework and PostgreSQL for data storage.
+
+## Database Schema
+
+You can find the database schema from [here](https://drawsql.app/teams/yasin-6/diagrams/quiz-api).
 
 ## Installation
 
 1. Clone the repository:
 
 ```
-git clone https://github.com/ysntrkc/orderapi.git
+git clone https://github.com/ysntrkc/quiz-app-backend.git
 ```
 
 2. Install dependencies:
