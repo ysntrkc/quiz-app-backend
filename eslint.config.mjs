@@ -112,9 +112,16 @@ export default [
 			'no-var': [
 				'error',
 			],
-			'no-dupe-keys': 0,
-			'no-useless-catch': 0,
-			'no-mixed-spaces-and-tabs': 0,
+			'no-dupe-keys': [
+				'error',
+			],
+			'no-useless-catch': [
+				'error',
+			],
+			'no-mixed-spaces-and-tabs': [
+				'error',
+				'smart-tabs',
+			],
 			'max-len': [
 				'error',
 				{
@@ -143,6 +150,9 @@ export default [
 				'always',
 			],
 			'no-undef': 0,
+			'space-infix-ops': [
+				'error',
+			],
 		},
 	},
 ];
