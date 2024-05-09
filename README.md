@@ -12,19 +12,19 @@ You can find the database schema from [here](https://drawsql.app/teams/yasin-6/d
 
 1. Clone the repository:
 
-```
+``` BASH
 git clone https://github.com/ysntrkc/quiz-app-backend.git
 ```
 
 2. Install dependencies:
 
-```
+``` BASH
 npm install
 ```
 
 3. Create database:
 
-```
+``` BASH
 npx sequelize-cli db:create
 npx sequelize-cli db:migrate
 npx sequelize-cli db:seed:all
@@ -32,7 +32,7 @@ npx sequelize-cli db:seed:all
 
 4. Create .env file in the root directory and add the following:
 
-```
+``` BASH
 PORT=5000
 NODE_ENV=development
 
@@ -48,7 +48,7 @@ DATABASE_DIALECT=postgres
 
 5. Run the server:
 
-```
+``` BASH
 npm start
 ```
 
